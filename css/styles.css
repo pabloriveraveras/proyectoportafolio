@@ -106,11 +106,11 @@ footer{
 }
 
 h1{
-    font-size: 36px;
+    font-size: 48px;
 }
 
 h2{
-    font-size: 28px;
+    font-size: 32px;
 }
 
 
@@ -124,9 +124,7 @@ section{
 
 }
 
-#inicio{
-    margin-bottom: 50px;
-}
+
 
 
 
@@ -188,17 +186,12 @@ nav ul li {
 
 /* Container 2 */
 
-.flex-container2{
+#flex-container2{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     min-height: 100vh;
 
-    
-    
-    
-    
-    
 
 
   }
@@ -239,7 +232,8 @@ nav ul li {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: 500px;
+    height: 400px;
+    padding-top: 90px;
     
     
     
@@ -290,6 +284,7 @@ nav ul li {
     background-color: #db6600;
     border-radius: 30px;
     height: 450px;
+    margin-top: 90px;
 
 
   }
@@ -311,14 +306,15 @@ nav ul li {
     cursor: pointer;
   }
   
-
+/* Container 5 */
 
   #flex-container5 {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     height: 300px;
-    background-color: red;
+    background-color: #e9dec4;
     
     
     
@@ -337,13 +333,92 @@ nav ul li {
   }
 
   @media(max-width:700px){
+
+
+    #flex-container1 {
+      display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+  }
+
+  #navegador {
+    width: 300px;
+  }
+    
+
+
+  /* Estilos para el logo */
+  #logo {
+    width: 50px; /* Ajusta el tamaño del logo según tus necesidades */
+    height: 30px;
+  }
+
+  
+
+
+
+    #flex-container2 {
+      display: flex;
+      flex-direction: column;
+      
+      align-items: center;
+      height: auto;
+      width: auto;
+    }
    
     #fotoprincipal{
-        max-width: 200px;
-        max-height: 200px;
+        max-width: 300px;
+        max-height: 300px;
     
     }
-}
+
+    #textobio{
+      width: 300px;
+    
+    }
+
+    #flex-container3{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: auto;
+      
+      
+      
+    }
+
+    .tarjeta {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+      
+      
+    }
+
+    #flex-container4{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: auto;
+      
+      
+      
+  
+    }
+
+    
+
+    #flex-container5{
+      display: flex;
+      flex-direction: column;
+    
+      height: auto;
+    }
+  }
+
 
   
 
