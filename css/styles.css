@@ -76,7 +76,7 @@ header{
     width: 100%;
     position: fixed;
     border-bottom-style: ridge;
-    font-size: 18px;
+    font-size: 100%;
     line-height: 1.2;
     font-family: 'Lato', sans-serif;
     background-color: #e9dec4;
@@ -90,7 +90,7 @@ body{
     background-color:  #e9dec4 ;
     font-family: 'Lato', sans-serif;
     color:   #2f3438;
-    font-size: 18px;
+    font-size: 100%;
     line-height: 1.2;
 
 }
@@ -100,7 +100,7 @@ footer{
     
     text-align: center;
     color:  #fbfbfb;
-    font-size: 18px;
+    font-size: 100%;
     line-height: 1.2;
 
 }
